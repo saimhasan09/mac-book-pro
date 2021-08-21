@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Mac Book Pro</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class=" row my-4  ">
+            <div class="col-6 w-50 p-5 "><img class="img-fluid" src="images/mac.png" alt=""></div>
+
+            <div class="col-6 mt-2 p-3">
+                <h1>Customise your blue 24-inch iMac with Apple M1 chip.</h1>
+                <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-coreGPU,and 16-core
+                    Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Masic Mouse Magic
+                    Keyboard- US English</p>
+
+                <!-- memory section  -->
+                <h3 class="mt-4">Memory</h3>
+                <button id="8GB-memory-btn" type="button" class="btn btn-outline-secondary">8GB unified memory </button>
+                <button id="16GB-memory-btn" type="button" class="btn btn-outline-secondary">16GB unified memory
+                </button>
+
+                <!-- storage section  -->
+                <h3 class="mt-4">Storage</h3>
+                <button id="256GB-ssd-btn" type="button" class="btn btn-outline-secondary">256GB SSD storage </button>
+                <button id="512GB-ssd-btn" type="button" class="btn btn-outline-secondary">512 GB SSD storage </button>
+                <button id="1TB-ssd-btn" type="button" class="btn btn-outline-secondary">1TB SSD storage </button>
+
+                <!-- delivery section  -->
+                <h3 class="mt-4">Choose your delivery option</h3>
+                
+                    <button id="free-delivery" type="button" class="btn btn-outline-secondary">Friday,Aug 25 FREE prime
+                        Delivery</button>
+                    <button id="fast-delivery" type="button" class="btn btn-outline-secondary">Friday,Aug 21 Delivery
+                        charge $20</button>
+                
+
+
+                <!-- table section  -->
+                <table class="table my-5">
+
+                    <tbody>
+                        <tr>
+                            <th>Best Price</th>
+                            <th>$<span id="bestprice-balance">1299</span></th>
+                        </tr>
+                        <tr>
+                            <th>Extra Memory Cost</th>
+                            <th>$<span id="memory-cost">00</span></th>
+                        </tr>
+                        <tr>
+                            <th>Extra storage Cost</th>
+                            <th>$<span id="storage-Cost">00</span></th>
+                        </tr>
+                        <tr>
+                            <th>Delivery charge</th>
+                            <th>$<span id="delivery-cost">00</span></th>
+                        </tr>
+
+                        <tr class="border border-4 border-dark">
+                            <th>Total Price</th>
+                            <th>$<span id="total-balance">1299</span></th>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- pomo section  -->
+                <h4>Add Pomo code</h4>
+                <input id="pomo-input" type="text">
+                <button id="pomo-btn" type="button" class="btn btn-danger">Apply</button>
+
+            </div>
+        </div>
+    </section>
+    <section class="container text-center my-3 p-3">
+        <h1>Total:$<span id="net-price">1299</span> </h1>
+    </section>
+
+
+    <!-- bootstrap -js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- js file -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
